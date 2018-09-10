@@ -1,0 +1,90 @@
+<!-- Documento validado sem erros no W3C.
+Instituto INFNET
+Profª Thais Viana
+Samuel Belo - 15331408710
+ -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<!-- Somente atribuir informações na página. Não exibe nada. -->
+	<meta charset="utf-8">
+	<meta name="author" content="Samuel Belo">
+	<meta name="description" content="TP2 de HTML e CSS">
+	<meta name="keywords" content="sites, web, desenvolvimento, html, css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<title>Kombi Coffee</title>
+
+	<!-- Esse cssreset tem alguma finalidade que
+			ainda não faço a menor idéia de qual é, mas a julgar
+			pelas primeiras linhas do arquivo, ele parece "padronizar"
+			as margens e demais separações da página afim de evitar a 
+			incompatibilidade de formatações entre navegadores.
+			Vai saber ¯\_(ツ)_/¯ -->
+	<!-- <link rel="stylesheet" type="text/css" href="cssreset.css"> -->
+</head>
+
+<body> 
+	<!--DIV ID container. -->
+	<div id="container">
+	
+	<!-- tem que ocultar issooooooo a header no caso -->
+	<header>
+		<h1>Kombi Coffe</h1>
+	</header>
+	<!-- aqui não oculta mais não -->
+	
+	<div>
+		<!-- NAV é um elemento semântico. span, div, e etc são elementos não-semânticos do HTML -->
+		<nav>
+		<img src="img/logo_kombi_coffee.png" alt="logotipo_kombi" title="Nosso café é top!">
+		<p id="p1">
+			<a href="index.html">HOME</a> | 
+			<a href="local.html">LOCAL</a> | 
+			<a href="cardapio.html">CARDÁPIO</a> | 
+			<a href="eventos.html">EVENTOS</a> | 
+			<a href="contato.html">CONTATO</a></p>
+		</nav>
+	</div>
+	<!-- TITULO -->
+	<div>
+		<h1>O café que chega até você</h1>
+	</div>
+
+	<!-- BANNER DE LEVS -->
+	<div>
+		<img src="img/banner.jpg" alt="banner_cafe" title="banner_coffee">
+	</div>
+
+	<!-- FORMULARIO -->
+	<main>
+		<div>
+			<form>
+				<fieldset>
+					<section id="contato">
+					<legend>Dados Pessoais</legend>
+					Nome: <input type="text" name="nome" size="20" required="" title="Preencha seu nome">
+					<p>
+						E-mail: <input type="email" name="email" size="20" required="" title="preencha seu email">
+						<p>
+							<label>Deixe a sua Mensagem</label> <br>
+							<textarea name="mensagem" cols="20" rows="5"></textarea><br>
+							<input type="submit" value="Enviar mensagem" />
+					</section>
+				</fieldset>
+			</form>
+		</div>
+	</main>
+	
+	<!-- Só um adesivo do W3C -->
+	<div>
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img class="img-w3c" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS válido!" /></a>
+		</p>
+	</div>
+</div>
+</body>
+
+</html>
