@@ -1,0 +1,103 @@
+body {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+}
+
+#container{
+	align-content: center;
+	left: 5%;
+	top: 15%
+}
+/*H1 aqui tem propriedades que ocultam conteúdo. ainda não sei como.*/
+ h1 {
+	color: #FAAC58;
+	font-size:20px;
+}
+
+ h2{
+	color: #FAAC58;
+	font-size: 0.9em;
+}
+ #p1{
+	color: #FAAC58;
+	font-size: 0.9em;
+}
+ #p2, #p3{
+	font-size: 0.8em;
+
+}
+/* #p3{
+	font-size: 1em;
+}
+*/
+ a:link, a:visited {
+	text-decoration: none 
+}
+ a:hover {
+	text-decoration: underline;
+	color: #D1AB64 
+}
+ a:active {
+	text-decoration: none 
+}
+ th, td {
+	padding: 15px;
+}
+ td {
+	text-align: left;
+}
+ table {
+	border-spacing: 5px;
+}
+ caption {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+}
+ .img-w3c{
+	border:0;
+	width:88px;
+	height:31px 
+}
+ #contato{
+ 	align-content: center;
+ }
+ #navbar {
+ 	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #421908;
+    margin-top: 12%;
+ }
+ #menu {
+ 	float: left;
+ 	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10%;
+
+ }
+ #logo{
+ 	position: absolute;
+	top: 5%;
+	left: 45%;
+ }
+ #banner{
+ 	width: 100%;
+	top: 55%;
+ }
+ #slogan{
+ 	text-align: center;
+ 	font-size: 45px;
+ 	color: #421908;
+ }
+ #escolha{
+ 	font-size: 30px;
+ 	color: #421908;
+ 	font-family: 'Arimo', sans-serif;
+ 	font-style: italic;
+ }
