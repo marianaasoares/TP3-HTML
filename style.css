@@ -27,7 +27,7 @@ body {
  #p2, #p3{
 	font-size: 0.8em;
 	text-align: center;
-	s
+
 }
 /* #p3{
 	font-size: 1em;
@@ -97,11 +97,18 @@ body {
  	font-size: 45px;
  	color: #421908;
  }
- #escolha, #encontrar{
+ #escolha{
  	font-size: 30px;
  	color: #421908;
  	font-family: 'Arimo', sans-serif;
  	font-style: italic;
+ }
+ #encontrar{
+ 	font-size: 30px;
+ 	color: #421908;
+ 	font-family: 'Arimo', sans-serif;
+ 	font-style: italic;
+ 	margin-right: 50px;
  }
 #cafe{
 	display: block;
@@ -111,4 +118,11 @@ body {
 #mapa{
 	display: block;
 	margin-right: 10px;
+}
+#alinhar{
+	display: flex;
+}
+#title{
+	display: flex;
+
 }
