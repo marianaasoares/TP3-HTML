@@ -4,50 +4,47 @@
 <head>
 	<!-- Somente atribuir informações na página. Não exibe nada. -->
 	<meta charset="utf-8">
-	<meta name="author" content="Samuel Belo">
-	<meta name="description" content="TP2 de HTML e CSS">
-	<meta name="keywords" content="sites, web, desenvolvimento, html, css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" />
 	<title>Kombi Coffee</title>
-
 </head>
 
 <body> 
-	<!--DIV ID container. -->
 	<div id="container">
-
+	<!-- oculta header -->	
 	<header>
 		<h1>Kombi Coffe</h1>
-	</header>	
+	</header>
+	<!-- aqui não oculta mais -->
+	
 	<div>
-		<nav>
-		<img src="img/logo_kombi_coffee.png" alt="logotipo_kombi" title="Nosso café é top!">
+		<img id="logo" src="img/logo_kombi_coffee.png" alt="logotipo_kombi" title="Nosso café é top!">
 		<p id="p1">
-			<a href="index.html">HOME</a> | 
-			<a href="local.html">LOCAL</a> | 
-			<a href="cardapio.html">CARDÁPIO</a> | 
-			<a href="eventos.html">EVENTOS</a> | 
-			<a href="contato.html">CONTATO</a></p>
+		<nav>
+			<ul id="navbar">
+				<!-- As cores dos links da nav foram alteradas aqui porque não ia de JEITO NENHUM no CSS -->
+				<li id="menu"><a style= "color: white;" href="index.html">HOME</a></li>
+				<li id="menu"><a style= "color: white;"href="local.html">LOCAL</a></li>
+				<li id="menu"><a style= "color: white;"href="cardapio.html">CARDÁPIO</a></li>
+				<li id="menu"><a style= "color: white;"href="eventos.html">EVENTOS</a></li>
+				<li id="menu"><a style= "color: white;"href="contato.html">CONTATO</a></li></p>
+			</ul>
 		</nav>
 	</div>
 
 	<!-- TITULO -->
 	<div>
-		<h1>O café que chega até você</h1>
+		<h1 id="slogan">O café que chega até você</h1>
 	</div>
-
-	<!-- BANNER DE LEVS -->
 	<div>
-		<img src="img/banner.jpg" alt="banner_cafe" title="banner_coffee">
+		<img id="banner" src="img/banner.jpg" alt="banner_cafe" title="banner_coffee">
 	</div>
-	<br>
-
 	<!--INICIO DA TABELA DE CARDÁPIO -->
 	<div>
 		<table>
-			<caption>Cardápio</caption>
+			<caption id="cardapio">Cardápio</caption>
 			<tr>
 				<th>Foto</th>
 				<th>Descrição</th>
@@ -75,15 +72,11 @@
 			</tr>
 		</table>
 	</div>
-	
-	<!-- Só um adesivo do W3C -->
-	<div>
-		<p>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img class="img-w3c" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS válido!" /></a>
-		</p>
-	</div>
-
-</div>
+	<footer>
+				<div id="rodape">
+					<p>Copyright</p>
+				</div>
+			</footer>
 </body>
 
 </html>

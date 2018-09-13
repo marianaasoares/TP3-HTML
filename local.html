@@ -1,50 +1,58 @@
-<!-- Documento validado sem erros no W3C.
-Instituto INFNET
-Profª Thais Viana
-Samuel Belo - 15331408710
- -->
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
 	<!-- Somente atribuir informações na página. Não exibe nada. -->
 	<meta charset="utf-8">
-	<meta name="author" content="Samuel Belo">
-	<meta name="description" content="TP2 de HTML e CSS">
-	<meta name="keywords" content="sites, web, desenvolvimento, html, css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" />
 	<title>Kombi Coffee</title>
-
-	<!-- Esse cssreset tem alguma finalidade que
-			ainda não faço a menor idéia de qual é, mas a julgar
-			pelas primeiras linhas do arquivo, ele parece "padronizar"
-			as margens e demais separações da página afim de evitar a 
-			incompatibilidade de formatações entre navegadores.
-			Vai saber ¯\_(ツ)_/¯ -->
-	<!-- <link rel="stylesheet" type="text/css" href="cssreset.css"> -->
 </head>
 
 <body> 
-	<!--DIV ID container. -->
 	<div id="container">
-	
-	<!-- tem que ocultar issooooooo a header no caso -->
+	<!-- oculta header -->	
 	<header>
 		<h1>Kombi Coffe</h1>
 	</header>
-	<!-- aqui não oculta mais não -->
+	<!-- aqui não oculta mais -->
 	
 	<div>
-		<!-- NAV é um elemento semântico. span, div, e etc são elementos não-semânticos do HTML -->
-		<nav>
-		<img src="img/logo_kombi_coffee.png" alt="logotipo_kombi" title="Nosso café é top!">
+		<img id="logo" src="img/logo_kombi_coffee.png" alt="logotipo_kombi" title="Nosso café é top!">
 		<p id="p1">
-			<a href="index.html">HOME</a> | 
-			<a href="local.html">LOCAL</a> | 
-			<a href="cardapio.html">CARDÁPIO</a> | 
-			<a href="eventos.html">EVENTOS</a> | 
-			<a href="contato.html">CONTATO</a></p>
+		<nav>
+			<ul id="navbar">
+				<!-- As cores dos links da nav foram alteradas aqui porque não ia de JEITO NENHUM no CSS -->
+				<li id="menu"><a style= "color: white;" href="index.html">HOME</a></li>
+				<li id="menu"><a style= "color: white;"href="local.html">LOCAL</a></li>
+				<li id="menu"><a style= "color: white;"href="cardapio.html">CARDÁPIO</a></li>
+				<li id="menu"><a style= "color: white;"href="eventos.html">EVENTOS</a></li>
+				<li id="menu"><a style= "color: white;"href="contato.html">CONTATO</a></li></p>
+			</ul>
 		</nav>
 	</div>
+
+	<!-- TITULO -->
+	<div>
+		<h1 id="slogan">O café que chega até você</h1>
+	</div>
+	<div>
+		<img id="banner" src="img/banner.jpg" alt="banner_cafe" title="banner_coffee">
+	</div>
+	<div>
+		<section>
+			<p id="p4">Nos encontre aqui</p>
+		</section>
+		<iframe id="local" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2718181389373!2d-43.1810597854004!3d-22.903342943505347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5e7db1b2d3%3A0x4f7d475eaa18788f!2sR.+do+Ros%C3%A1rio%2C+128+-+Centro%2C+Rio+de+Janeiro+-+RJ%2C+20041-002!5e0!3m2!1spt-BR!2sbr!4v1536806597124" width="600" height="450" frameborder="0" style="border:10px" allowfullscreen></iframe>
+	</div>
+
+	<footer>
+		<div id="rodape">
+			<p>Copyright</p>
+		</div>
+	</footer>
+</body>
+
+</html>
